@@ -1,0 +1,8 @@
+.row{
+    background-color: red;
+    align-self: center;
+    justify-content: center;
+}
+/* I added display flex and will need to play around with this...also I made the form my container, try changing it tomorrow and see what it does*/
+/*Ideally I need the container in the middle of the page with content centered and I also need to display my output for my function as well
+items in my container need to be in a row now bunch up as there are which might be a issue with the viewport itself...may need to build custom container*/
