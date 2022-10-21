@@ -7,27 +7,30 @@
     <link rel="stylesheet" href="stylesheet.css">
 
     </head>
-    <body style="background-color: blue">
-        
+    <body>
         <div>
             <h1>Tip Calculator</h1>
-        <form class="row">
-            <div style="justify-content: row;">
-                <label for="amount" id="bill-form">Total Bill Amount</label>
+            <hr>
+        <form>
+            
+            <div>
+                <label for="amount" id="bill-form">Bill</label>
                 <br>
                 <input type="text" name="amount" id="billAmount" placeholder="$" required oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" />
                 </input>
             </div>
-            <div>
+            <div id="tipSelect">
                 <br>
-                <label for="tip" class="form-select">Tip</label>
-                <select name="tip" id="tipSelect">
-                    <option value=0 selected>No tip</option>
-                    <option value=.10>10%</option>
-                    <option value=.15>15%</option>
-                    <option value=.18>18%</option>
-                    <option value=.20>20%</option>
-                </select>
+            <button class="btn btn-primary btn-lg" value=.05>5%
+            </button>
+            <button class="btn btn-primary btn-lg" value=.10>10%
+            </button>
+            <button class="btn btn-primary btn-lg" value=.15>15%
+            </button>
+            <button class="btn btn-primary btn-lg" value=.25>25%
+            </button>
+            <button class="btn btn-primary btn-lg" value=.5>50%
+            </button>
             </div>
             <div>
                 <label id="people" id="split-form">How Will The Bill Be Split ?</label>
@@ -35,9 +38,13 @@
                 <input type="number" value="1" min="1" step="1">
             </div>
             <br>
-            <button class="btn btn-primary btn-sm" onclick="tipCalc();">Calculate</button>
+            <button class="btn btn-primary btn-sm" value="Reset" onclick="tipCalc();"
+            >Reset</button>
         </div>
     </form>
+    <div class="container">
+        
+    </div>
     <script src="index.js"></script>
     </body>
 </html>
