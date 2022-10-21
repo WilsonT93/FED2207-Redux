@@ -1,5 +1,5 @@
 function tipCalc() {
-    //declare variables that handle function
+    //declare variables for function
     let totalBill = document.getElementById('#billAmount').value;
     let tipAmt = document.getElementById('#tipSelect').value;
     let peopleAmt =  document.getElementById('#people').value;
@@ -11,6 +11,6 @@ function tipCalc() {
     //calculate tip amount
    let afterTip = (tipAmt * totalBill) / peopleAmt;
     //return new bill amount
-    newBill =  + afterTaxes + afterTip 
+    newBill = afterTaxes + afterTip 
     console.log(newBill)
 }
