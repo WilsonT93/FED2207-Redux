@@ -12,12 +12,14 @@
             <h1>Tip Calculator</h1>
             <hr>
         <form>
+        <!-- Bill amount input -->
             <div>
                 <label for="amount" id="bill-form">Bill</label>
                 <br>
                 <input type="text" name="amount" id="billAmount" placeholder="$" required oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" />
                 </input>
             </div>
+        <!--Tip Selection -->
             <div id="tipSelect">
                 <br>
             <button class="btn btn-primary btn-lg" value=.05>5%
@@ -31,7 +33,7 @@
             <button class="btn btn-primary btn-lg" value=.5>50%
             </button>
             </div>
-        
+        <!--Input for the number of people -->
             <div>
                 <label id="people" id="split-form">How Will The Bill Be Split ?</label>
                 <br>
@@ -42,10 +44,7 @@
             >Reset</button>
         </div>
     </form>
-    <div class="container">
-        
-    </div>
-    
+    <!--Display for value on right -->
     <div id="display Side">
         
     </div>

@@ -13,3 +13,6 @@ h1{
 .tipSelect{
     flex-wrap: wrap;
 }
+.splitForm{
+    text-align: right;
+}

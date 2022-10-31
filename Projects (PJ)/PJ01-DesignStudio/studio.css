@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap');
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #FFF7F0;
+    justify-content: center;
+
+}
+
+#headerBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#tRow{
+    display: flex;
+    justify-items: space-between;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+h1 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #030303;
+}
+/* Panels */
+
+#panel {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#graphicDes {
+    background: #755CDE;
+    border-radius: 10px;
+}
+
+#uiUx {
+    background: #F6A560;
+    border-radius: 10px;
+}
+
+#apps {
+    background: #F39E9E;
+    border-radius: 10px;
+}
+
+#illustrations {
+    background: #EB7565;
+    border-radius: 10px;
+}
+
+#photos {
+    background: #61C4B7;
+    border-radius: 10px;
+}
+
+#moGraph {
+    background: #552049;
+    border-radius: 10px;
+}
+#bioImg {
+    max-width: 50%;
+    height: 50%;
+}
+#bio{
+    display: flex;
+    justify-content: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#myWork{
+    display: flex;
+    align-items: center;
+    justify-content: column;
+}
+#contact{
+    text-align: center;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    justify-content: right;
+    float: right;
+    max-width: 50%;
+}
+
